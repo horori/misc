@@ -8,10 +8,6 @@
   Convert-ExcelToRedmine @"
   <PASTE EXCEL CELLS HERE>
   "@
-  .PARAMETER computername 
-  The computer name to query. Just one. 
-  .PARAMETER logname 
-  The name of a file to write failed computer names to. Defaults to errors.txt. 
   #> 
   [CmdletBinding()] 
   param 
